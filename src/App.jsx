@@ -1,7 +1,6 @@
 import "./App.css";
-import LoginPage from "../src/pages/LoginPage.jsx";
-import RegisterPage from "../src/pages/RegisterPage.jsx";
-import OtpPage from "../src/pages/OtpPage.jsx";
+import LoginPage from "../src/pages/SignInPage.jsx";
+import RegisterPage from "../src/pages/SignUpPage.jsx";
 import ForgotPasswordPage from "../src/pages/ForgotPasswordPage.jsx";
 import ResetPasswordPage from "../src/pages/ResetPasswordPage.jsx";
 import EmailVerificationPage from "../src/pages/EmailVerificationPage.jsx";
@@ -14,7 +13,6 @@ function App() {
       <Routes>
         <Route path="/" element={<LoginPage />} />
         <Route path="/register" element={<RegisterPage />} />
-        <Route path="/otp" element={<OtpPage />} />
         <Route path="/forgot-password" element={<ForgotPasswordPage />} />
         <Route path="/reset-password" element={<ResetPasswordPage />} />
         <Route path="/email-verification" element={<EmailVerificationPage />} />
